@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Outfit', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background: black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,h4,p,a{
+  color: #ffffff;
+  text-decoration:none;
 }
-
-.App-link {
-  color: #61dafb;
+.btn{
+  padding: 12px 22px;
+  font-size: 18px;
+  text-transform:uppercase;
+  background-color:rgb(243, 239, 4);
+  color:black;
+  border:1px solid white;
+  font-weight:600px;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-light{
+  padding: 12px 22px;
+  font-size: 18px;
+  text-transform:uppercase;
+  border:1px solid #fff;
+  font-weight:600px;
+  cursor: pointer;
+  background-color:transparent;
+  color: #fff;
+}
+.btn:hover,.btn-light:hover{
+  background-color:rgb(1, 172, 1);
+  color: #fff;
+  transition: 0.3s;
 }

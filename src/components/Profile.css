@@ -1,0 +1,19 @@
+.profile-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(1, 1, 43);
+}
+.details{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+
+}
+img{
+    height: 145px;
+    width: 130px;
+}
