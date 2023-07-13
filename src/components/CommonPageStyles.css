@@ -1,40 +1,78 @@
-.bg-image{
-    width:100%;
-    height:60vh;
-    position: relative;
-    
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 .bg-image::before {
-    content:"";
-    background: url("https://images.unsplash.com/photo-1608306448197-e83633f1261c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
-    background-size:cover;
-    background-position:center top;
-    height:100%;
-    width:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:-1;
+  content: "";
+  background: url("https://images.unsplash.com/photo-1608306448197-e83633f1261c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
-.heading{
-    height:100%;
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
+.heading {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.bg-image h1{
-    font-size:2.4rem;
+.bg-image h1 {
+  font-size: 2.4rem;
 }
 .bg-image p {
-    font-size:1.4rem;
-    text-align: center;
+  font-size: 1.4rem;
+  text-align: center;
 }
-@media screen and (max-width:640px) {
-    .bg-image h1{
-        font-size:2rem;
-    }   
+@media screen and (max-width: 640px) {
+  .bg-image h1 {
+    font-size: 2rem;
+  }
 }
 
+.lightmode {
+  .bg-image {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .bg-image::before {
+    content: "";
+    background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .heading {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-image h1 {
+    font-size: 2.4rem;
+  }
+  .bg-image p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  @media screen and (max-width: 640px) {
+    .bg-image h1 {
+      font-size: 2rem;
+    }
+  }
+}

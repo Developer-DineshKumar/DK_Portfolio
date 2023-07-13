@@ -1,18 +1,32 @@
 /* eslint-disable react/style-prop-object */
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import CommonPage from '../components/CommonPage'
-import Profile from '../components/Profile'
-const Contact = () => {
+import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import CommonPage from "../components/CommonPage";
+import EmailForm from "../components/EmailForm";
+const Contact = (props) => {
+  const { togglemode, toggleClick, Darkmode } = props;
   return (
     <div>
-      <Navbar/>
-      <CommonPage heading="Contact" text="show my contact deatails below"/>
-      <Profile/>
-      <Footer/>
-    </div>
-  )
-}
+      <Navbar
+        togglemode={togglemode}
+        toggleClick={toggleClick}
+        Darkmode={Darkmode}
+      />
+      <CommonPage
+        heading="Contact"
+        text="show my contact details below"
+        togglemode={togglemode}
+      />
+      <EmailForm togglemode={togglemode} />
 
-export default Contact
+      <Footer
+        togglemode={togglemode}
+        toggleClick={toggleClick}
+        Darkmode={Darkmode}
+      />
+    </div>
+  );
+};
+
+export default Contact;
