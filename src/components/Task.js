@@ -8,7 +8,7 @@ const Task = (props) => {
   const { togglemode } = props;
   return (
     <div className={togglemode}>
-      <div className="project-container">
+      <div className="project-container" style={{ margin: "10px" }}>
         <h1 className="project-heading">Projects</h1>
         <div className="taskdata-container">
           {TaskData.map((value, index) => {

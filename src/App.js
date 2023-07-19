@@ -7,6 +7,7 @@ import Project from "./routes/Project";
 import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import "./components/Navbar.js";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [Darkmode, setIsDarkmode] = useState(false);
@@ -20,6 +21,7 @@ function App() {
   return (
     <div>
       <>
+        <ScrollToTop />
         <Routes>
           <Route
             path="/"

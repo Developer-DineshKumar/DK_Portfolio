@@ -24,7 +24,9 @@
 .home {
   height: 100%;
   width: 100%;
+  animation: page;
 }
+
 .home .content {
   position: absolute;
   transform: translate(-50%, -50%);

@@ -15,7 +15,7 @@ const About = (props) => {
       />
       <CommonPage
         heading="ABOUT."
-        text="I am Fullstack Developer."
+        text="Find more infromation about me."
         togglemode={togglemode}
         toggleClick={toggleClick}
         Darkmode={Darkmode}
