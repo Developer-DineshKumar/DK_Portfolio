@@ -34,7 +34,7 @@ const ProjectCardData = [
   {
     imgsrc: img5,
     title: "Nxt-Trendz",
-    text: "Rolled out an innovative e-commerce platform patterned after Amazon and Flipkart. ● Designed pages for Login, Products, and Product details with React Router and React components. ● Ensured user security through JWT tokens, REST API calls, and local storage. Technologies used: React JS, JS, CSS, Bootstrap, Routing, REST API Calls, Local Storage, JWT Token, Authorization, Authentication",
+    text: "Rolled out an innovative e-commerce platform patterned after Amazon and Flipkart. ● Designed pages for Login, Products, and Product details with React Router and React components. ● Ensured user security through JWT tokens, REST API calls, and local storage. Technologies used: React JS, JS, CSS, Bootstrap, Routing, REST API Calls, Local Storage, JWT Token, Authorization, Authentication,Prime-User name : rahul and password: rahul@2021, Non-Prime-User name : raja and password: raja@2021",
     view: "https://newnxttrendz.ccbp.tech/",
     source:
       "https://github.com/Developer-DineshKumar/Nxt-Trendz---Cart-Features",
